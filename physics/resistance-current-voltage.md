@@ -83,10 +83,4 @@ Circuit model two, series.
 | A2, First branch (A)  | 0.07     | n/a    |
 | A3, Second branch (A) | 0.07     | n/a    |
 
-From this data we can see...
-```
-/* TODO: 
-    * analyse data, including why EMF > total voltage in series
-    * write evaluation 
-*/
-```
+From this data we can see that the voltage of each individual lamp within the series circuit is roughly half of the total EMF (1/2 of 7.50 = 3.75) = V2, V3 ± 0.25. Yet, this is not perfect; summing V2 and V3 gives a value less than the EMF. One could simply attribute this to machine error, yet this is more likely due to internal resistance of wires. That is, total circuit resistance is contributed to by the resistivity of the wires. Thus, as voltage is proportional to resistance, the EMF is increased. To which degree this effect is noticable is dependent on wire material, length and cross sectional area. 
